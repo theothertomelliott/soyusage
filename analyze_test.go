@@ -51,7 +51,7 @@ func TestAnalyzeParamHierarchy(t *testing.T) {
 			templateName: "test.main",
 			expected: map[string]interface{}{
 				"a": map[string]interface{}{
-					"b": map[string]interface{}{
+					"broken": map[string]interface{}{
 						"d": map[string]interface{}{
 							"*": struct{}{},
 						},
